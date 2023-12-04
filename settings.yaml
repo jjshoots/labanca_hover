@@ -1,0 +1,37 @@
+# learning params
+buffer_size: 100000
+batch_size: 256
+total_steps: 300000
+repeats_per_buffer: 1
+critic_update_multiplier: 1
+actor_update_multiplier: 1
+discount_factor: 0.99
+learning_rate: 0.0004
+random_rollover: false
+
+# core SAC params
+use_entropy: true
+target_entropy: null
+
+# wingman required params
+debug: false
+train: false
+display: false
+evaluate: false
+
+weights_directory: 'weights'
+version_number: null
+mark_number: 0
+log_status: true
+
+increment: false
+logging_interval: 1000
+max_skips: 5
+greater_than: 0.0
+
+wandb: false
+wandb_name: ''
+wandb_notes: ''
+wandb_id: ''
+wandb_entity: ''
+wandb_project: ''
